@@ -1,0 +1,152 @@
+.box {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding: 5px;
+}
+
+.white-box {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.box-card {
+
+    border: solid 1px black;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: blanchedalmond;
+}
+
+.box-card1 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* 
+.box2{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: white;
+} */
+
+
+.inp {
+    padding-right: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 3px;
+    border-color: gray;
+    border-radius: 5px;
+}
+
+.box3 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* background-color: white;  */
+}
+
+input.search {
+    width: 260px;
+    border: 1px solid #555;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("/assets/search.svg") no-repeat 13px;
+}
+
+
+.tablerow td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+i {
+    cursor: pointer;
+}
+
+/* button
+{
+   
+    margin-left: 30px;
+    margin-top: -85px; 
+    
+
+} */
+
+ul {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    /* color: green; */
+    padding: 4px;
+    cursor: pointer;
+
+}
+
+
+.nav-item {
+    /* margin-left:100px ; */
+    margin-top: 10px;
+    /* margin-right: 200px; */
+    /* margin-left: 200px; */
+}
+
+.icon1 {
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.icon2 {
+    margin-left: 10px;
+}
+
+
+/* form */
+
+.custom-form {
+
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+
+
+}
+
+.custom-form .form-group {
+    margin-bottom: 20px;
+
+}
+
+.custom-form label {
+    font-weight: bold;
+}
+
+.custom-form input[type="file"] {
+    display: block;
+}
+
+
+#pagination {
+    background-color: rgba(14, 116, 77, 0.238);
+    cursor: pointer;
+
+    margin-top: 20px;
+    /* Add top margin */
+    display: flex;
+    /* Use flexbox layout */
+    justify-content: center;
+}
+
+
+.custom-hover:hover
+{
+    color: brown;
+}

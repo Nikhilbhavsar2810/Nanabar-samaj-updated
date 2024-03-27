@@ -1,0 +1,33 @@
+<!-- topnavbar -->
+
+
+<!-- <div class="topnav shadow p-1 bg-dark text-center text-white d-flex justify-content-center">
+    <a>Welcome Admin</a>
+    <span class="menu" (click)="openNav(true)"></span>
+    <i class="bi bi-box-arrow-left fa-2x"></i>
+</div> -->
+
+
+    <div class="topnav shadow p-1 bg-dark text-white d-flex justify-content-between align-items-center">
+        <div class="text-center">
+            <a>Welcome Admin</a>
+        </div>
+        <div class="d-flex align-items-center">
+            <span class="menu" (click)="openNav(true)">
+            </span>
+            <div class="dropdown">
+                <!-- <i class="bi bi-box-arrow-left fa-2x" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                    aria-expanded="false"></i> -->
+
+                    <i class="bi bi-box-arrow-left fa-2x" (click)="onlogout()"></i>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+
+
+

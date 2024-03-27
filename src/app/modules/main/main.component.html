@@ -1,0 +1,32 @@
+
+<app-header (isOpenNav)="openNav($event)" ></app-header> 
+<!-- topnavbar -->
+
+<!-- left sidebar nav  -->
+
+<div class="sidebar shadow p-2" id="sidebar" [ngStyle]="responsiveMenu">
+    <ul>
+        <li>
+
+        </li>
+        <li><a routerLink=""><i class="bi bi-speedometer2"></i>Dashboard</a></li>
+        <li><a><i class="bi bi-card-text"></i> Users</a></li>
+        <li>
+            <a href="#"><i class="bi bi-bag"></i> Location <i class="bi bi-arrow-right icon"></i></a>
+            <ul class="dropdow-container">
+                <li><a href="#">Country</a></li>
+                <li><a href="#">City</a></li>
+                <li><a href="#">State</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<!-- left sidebar nav  -->
+
+<!-- main content  -->
+
+<div class="main-content" [ngStyle]="responsiveContent">
+    <router-outlet></router-outlet>
+</div>
+
+<!-- main content  -->
